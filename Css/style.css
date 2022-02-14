@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Handlee&family=Libre+Baskerville&family=Red+Hat+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Great+Vibes&family=Handlee&family=Libre+Baskerville&family=Red+Hat+Display&family=Roboto:wght@300&display=swap');
+
+/*parte del encabezado (inicio de la página)*/
+
+.colorVerde {
+    color: rgba(18, 175, 18, 0.938);
+    font-size: 40px;
+    text-align: center;
+    background-image: url('../image/6.jpg');
+    background-position: center;
+    width: 1340px;
+    height: 160px; 
+    margin-right: 20px;
+    
+}
+
+/*parte del menú y submenú*/
+
+.menu {
+    justify-content: center;
+    margin-left: 70px;
+    font-weight: bold;
+    height: 40px;
+    margin-right: 10px;
+    border-width: 3px;
+    padding-right: 3px;
+    font-size: 0px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+
+/*slogan parte intruducción implementando el box*/
+
+.boxModel {
+    width: 900px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   margin-left: 80px;
+   margin-right: 120px;
+   padding-left: 150px;
+   padding-right: 100px;
+   margin-top: 90px;
+   background-color: antiquewhite;
+}
+
+.body{
+    font-family: 'Eczar', serif;
+    font-weight: 900px;
+    color: rgb(216, 231, 223);
+}
+
+.subtitulo{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin-left: 70px;
+    padding-top: 20px;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+#parrafoPrincipal{
+    font-weight: normal;
+    text-align:center;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.video {
+    margin-top: 40px;
+    padding-left: 140px;
+}
+
+.boxModel-1 {
+    font-size: 20px;
+    text-align:initial;
+    width: 750px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+   padding-left: 100px;
+   padding-right: 100px;
+
+}
+.videoQS {
+padding-left: 200px;
+padding-right: 200px;
+}
+
+#quienesSomos {
+    padding-left: 150px;
+    font-weight:normal;
+    text-align:initial;
+    font-size: 18px;
+}
+
+.datos{
+    margin-left: 20px;
+}
+
+.contacto {
+    width: 590px;
+    height: 450px;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: mediumseagreen;
+    padding-left: 30px;
+    margin-left: 50px;
+
+}
+
+.nombre{
+    font-weight:bold;
+}
+
+.apellido {
+    font-weight: bold;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.comentario {
+    font-weight: bold;
+}
+
+.NuestraT{
+    width: 1000px;
+    height: 60px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.descrip {
+    font-size: 18px;
+}
+
+.imagenes {
+    display: flex;
+    display:inline;
+    width: 400px;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.procesoS{
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 100px;
+   padding-top: 40px;
+    background-position: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-position: center;
+    display: inline;
+    margin-left: 50px;
+}
+
+.productos {
+    font-size: 20px;
+    text-align:initial;
+    width: 900px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   margin-left: 80px;
+   
+
+}
+.produc {
+    padding-left: 80px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 0;
+    
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 14px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+
+.lista {
+    background-color: rgb(16, 163, 16);
+    height: 100px;
+    width: 1200px;
+
+}
+
+.facebook{
+    display: block;
+}
+
+.instagram {
+    display: block;
+}
+
+.botonWhatsapp {
+
+ position:fixed;
+ bottom: 5px;
+ right: 5px;  
+
+}
+
+/*agregando grids*/
+/*editando tamaño de colomnas y filas para los productos a ofrecer*/
+
+
+nav {
+    background-color: rgba(71, 28, 10, 0.705);
+}
+
+
+button {
+    text-decoration: none;
+    color:rgb(22, 58, 8);
+    font-weight: bold;
+}
+
+button {
+    border-radius: 3px;
+    background-color:rgb(184, 230, 236);
+    padding: 3px;
+}
+
+nav {
+    font-size: large;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*clase agregando grids */
+/*aplicación margenes productos de inicio*/
+.proIni {
+margin-left: 20px;
+}
+
+header {
+    background-color: white;
+}
+
+section{
+    width: 1000px;
+    margin-left: 120px;
+    /*numero y tamaño de colomnas*/
+    grid-template-columns: auto auto auto auto auto;
+    /*tamaño de filas*/
+    grid-template-rows: 200px;
+    /*separado de la filas y columnas*/
+    grid-column-gap: 2px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    border-radius: 9px;
+    text-align: center;
+    color: black;
+    display: grid;
+    border-radius: 15px;
+    /*transición para el cambio de color*/
+    transition: all 0.5s ease;
+    /*color de fondo al cambiar*/
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+/*intento cambiar color productos*/
+section:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+/*mediaquere*/
+/*grid II*/
+
+header {
+    grid-area: header;
+}
+
+section {
+    grid-area: section;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    #cuerpo {
+        grid-template-columns: auto;
+        grid-template-rows: 10% 10% auto 10%;
+        grid-column-gap: 10px;
+        grid-template-areas: "header" "nav" "section" "fieldset";
+    }
+    
+    section{
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+
+    nav{
+        display: flex;
+
+    }
+    
+    #menuCafe {
+        padding: 30px;
+    }
+
+    #inputNav {
+        margin: 30px;
+    }
+
+    .item {
+        justify-self: stretch;
+        align-self: flex-start;
+    }
+    #menuCafe{
+        padding: 30px;
+    }
+    #imputHeader{
+        margin: 30px;
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+    #cuerpo {
+        grid-template-columns: 10% auto;
+        grid-template-rows: 15% 10% auto 15%;
+        grid-column-gap: 10%;
+        grid-row-gap: 10px;
+        grid-template-areas: "header header" "nav nav" "section";
+    }
+
+    section{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 15px;
+        -ms-grid-rows: 15px;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+
+    #menuCafe {
+        display: none;
+    }
+
+    #
+}
+
+
+
+
+
+ 
+
